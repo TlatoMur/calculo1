@@ -1,0 +1,14 @@
+ejerg:-display('Introduce el valor de A:'),
+    read(A),
+    display('Introduce el valor de B:'),
+    read(B),
+    display('Introduce el valor de C:'),
+    read(C),
+    display('Introduce el valor de D:'),
+    read(D),
+    display('Introduce el valor de M:'),
+    read(M),
+        
+    Y is (C^4+3*B)/((D+5*A)*M*7)/(6+8*C),
+    display(Y).
+

@@ -1,0 +1,6 @@
+ejerc:-display('Introduce el valor de X:'),
+    read(X),
+        
+    Y is -5*X^3+2*X-9,
+    display(Y).
+

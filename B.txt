@@ -1,0 +1,10 @@
+ejerb:-display('Introduce el valor de A:'),
+    read(A),
+    display('Introduce el valor de B:'),
+    read(B),
+    display('Introduce el valor de F: '),
+    read(F),
+    
+    Y is B((A+7*F)/5)^3+4,
+    display(Y).
+
